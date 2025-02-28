@@ -5,9 +5,6 @@ import { FaGithub } from "react-icons/fa";
 import { FaArrowRightLong } from "react-icons/fa6";
 
 export function Hero(){
-  const [isHovered, setIsHovered] = useState(false);
-
-
   const [text, setText] = useState({
     line1: "",
     line2: ""
@@ -41,14 +38,6 @@ export function Hero(){
     }
   }, [index]);
 
-  const buttonStart = {
-    backgroundColor: isHovered ? "#212024" : "transparent",
-    cursor: "pointer",
-    padding: "8px 10px",
-    borderRadius: "5px",
-    transition: "background 0.2s ease-in-out, color 0.2s ease-in-out",
-  };
-
 
 
     return (
@@ -62,7 +51,7 @@ export function Hero(){
             <a className="flex flex-row items-center gap-2" href="https://github.com/LucasGervasoni" target="_blank"><FaGithub /> Github</a>
           </div>
           <p 
-          className="w-50" style={buttonStart}
+          className="w-50 buttonStart"
           onMouseEnter={() => setIsHovered(true)}
           onMouseLeave={() => setIsHovered(false)}
           >

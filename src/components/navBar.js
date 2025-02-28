@@ -3,10 +3,11 @@ import { useState } from "react";
 import { useBodyTheme } from "@/hooks/changeTheme";
 import { HiOutlineDownload } from "react-icons/hi";
 import { FiSun, FiMoon } from "react-icons/fi";
+import Link from "next/link";
 
 export function NavBar(){
   const [isDarkMode, setIsDarkMode] = useState(false);
-  const theme = isDarkMode ? 'dark-theme' : 'light-theme';
+  const theme = isDarkMode ? 'light-theme' : 'dark-theme';
 
   useBodyTheme(theme);
 
@@ -18,8 +19,8 @@ export function NavBar(){
 
   return(
     <nav className="flex justify-between items-center">
-      <p className="tracking-wider flex items-center gap-4">
-        LUCAS GERVASONI 
+     <p className="tracking-wider flex items-center gap-4">
+      <Link href="/">LUCAS GERVASONI</Link> 
         <button className="cursor-pointer" onClick={() => setIsDarkMode(!isDarkMode)}>
         {isDarkMode ? <FiSun/> : <FiMoon/> }
       </button>

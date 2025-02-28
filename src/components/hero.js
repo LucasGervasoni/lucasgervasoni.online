@@ -1,5 +1,6 @@
 'use client';
 import { useState, useEffect } from "react";
+import Link from "next/link";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaArrowRightLong } from "react-icons/fa6";
@@ -52,10 +53,8 @@ export function Hero(){
           </div>
           <p 
           className="w-50 buttonStart"
-          onMouseEnter={() => setIsHovered(true)}
-          onMouseLeave={() => setIsHovered(false)}
           >
-            <a className="flex items-center gap-4 justify-between">Press to start <FaArrowRightLong /></a>
+            <Link href="/about" className="flex items-center gap-4 justify-between">Press to start <FaArrowRightLong /></Link>
             </p>
         </div>
     )

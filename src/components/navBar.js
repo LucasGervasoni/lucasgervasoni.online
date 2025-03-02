@@ -25,7 +25,7 @@ export function NavBar(){
         {isDarkMode ? <FiSun/> : <FiMoon/> }
       </button>
         </p>
-      <a href="https://drive.google.com/file/d/1Ry7EtIbztxdZPtVEvihpzufAfbW-ymAC/view?usp=sharing" target="_blank" className="animate-bounce" style={buttonDownload}><HiOutlineDownload/></a>
+      <a title="resume" href="https://drive.google.com/file/d/1Ry7EtIbztxdZPtVEvihpzufAfbW-ymAC/view?usp=sharing" target="_blank" className="animate-bounce" style={buttonDownload}><HiOutlineDownload/></a>
     </nav>
   )
 }

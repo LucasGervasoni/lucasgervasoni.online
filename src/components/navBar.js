@@ -18,14 +18,14 @@ export function NavBar(){
 
 
   return(
-    <nav className="flex justify-between items-center">
-     <p className="tracking-wider flex items-center gap-4">
+    <nav className="flex justify-between items-center min-h-10">
+     <p className="hoverElements tracking-wider flex items-center gap-4">
       <Link href="/">LUCAS GERVASONI</Link> 
         <button className="cursor-pointer" onClick={() => setIsDarkMode(!isDarkMode)}>
         {isDarkMode ? <FiSun/> : <FiMoon/> }
       </button>
         </p>
-      <a title="resume" href="https://drive.google.com/file/d/1Ry7EtIbztxdZPtVEvihpzufAfbW-ymAC/view?usp=sharing" target="_blank" className="animate-bounce" style={buttonDownload}><HiOutlineDownload/></a>
+      <a title="resume" href="https://drive.google.com/file/d/1Ry7EtIbztxdZPtVEvihpzufAfbW-ymAC/view?usp=sharing" target="_blank" className="hoverElements animate-bounce" style={buttonDownload}><HiOutlineDownload/></a>
     </nav>
   )
 }

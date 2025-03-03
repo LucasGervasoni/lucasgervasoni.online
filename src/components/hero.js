@@ -42,7 +42,7 @@ export function Hero(){
 
 
     return (
-        <div className="heroContainer h-150 flex flex-col gap-4 justify-center">
+        <div className="heroContainer h-140 flex flex-col gap-4 justify-center">
           <div>
             <p className="text-3xl font-bold">{text.line1}</p>
             <p className="text-xl">{text.line2}</p>

@@ -55,8 +55,9 @@ body {
 .mainContainer{
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   gap: 20px;
-  height: 100vh;
+  min-height: 100vh;
   margin: 0 auto;
   padding:24px;
 }
@@ -66,9 +67,18 @@ body {
 }
 
 .aboutMeContent, .aboutTechContent, .moreAboutMeContent{
-  margin: 40px 0px;
+  margin-top: 40px;
 }
 
 .aboutMeItems, .aboutTechItems, .moreAboutMeItems{
   margin-top: 30px;
+}
+
+
+.footerElements{
+  color: rgb(168, 173, 178);
+}
+
+.hoverElements:hover{
+  color: #4385d7;
 }

@@ -9,3 +9,13 @@
 .aboutTechItems{
   margin-top: 30px;
 }
+
+.projectCard{
+  padding: 20px;
+  border: 1px solid #333333;
+  border-radius: 5px;
+}
+
+.projectSkills{
+  color: #828282;
+}

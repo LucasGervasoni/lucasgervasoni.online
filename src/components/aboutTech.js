@@ -1,3 +1,5 @@
+import { ProjectsList } from '@/components/projectsList';
+
 export function AboutTech(){
   return(
     <div className="aboutTech">
@@ -32,6 +34,9 @@ export function AboutTech(){
           <img alt="vercel" src="https://img.shields.io/badge/Vercel-black?style=for-the-badge&logo=vercel&logoColor=white" />
           <img alt="figma" src="https://img.shields.io/badge/Figma-black?style=for-the-badge&logo=figma&logoColor=white" />
         </div>
+      </div>
+      <div className="aboutTechContent flex flex-col gap-10">
+       <ProjectsList/>
       </div>
     </div>
   )

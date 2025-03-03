@@ -1,6 +1,6 @@
 import '../../public/css/MoreAboutMe.css'
 import { NavBar } from "@/components/navBar";
-import { MoreAboutMe } from '@/components/moreAboutMe';
+import { MoreAboutMe } from '@/components/aboutMe/moreAboutMe';
 
 export default function MoreAbout(){
   return (

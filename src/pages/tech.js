@@ -1,6 +1,6 @@
 import '../../public/css/AboutTech.css'
 import { NavBar } from "@/components/navBar";
-import { AboutTech } from '@/components/aboutTech';
+import { AboutTech } from '@/components/tech/aboutTech';
 
 export default function Tech(){
   return (

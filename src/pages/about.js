@@ -1,6 +1,6 @@
 import '../../public/css/About.css'
 import { NavBar } from "@/components/navBar";
-import { AboutMe } from "@/components/aboutMe";
+import { AboutMe } from "@/components/aboutMe/aboutMe";
 
 export default function About(){
   return (

@@ -1,4 +1,4 @@
-import { ProjectsList } from '@/components/projectsList';
+import { ProjectsList } from '@/components/tech/projectsList';
 
 export function AboutTech(){
   return(

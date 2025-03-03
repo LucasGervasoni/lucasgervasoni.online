@@ -1,14 +1,4 @@
-.aboutTech{
-  margin-top: 60px;
-}
-
-.aboutTechContent{
-  margin: 40px 0px;
-}
-
-.aboutTechItems{
-  margin-top: 30px;
-}
+@import url('../../src/app/globals.css');
 
 .projectCard{
   padding: 20px;

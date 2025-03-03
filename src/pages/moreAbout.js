@@ -1,12 +1,12 @@
-import '../../public/css/MoreAboutMe.css'
-import { NavBar } from "@/components/navBar";
-import { MoreAboutMe } from '@/components/aboutMe/moreAboutMe';
+import "../../public/css/MoreAboutMe.css";
+import { NavBar } from "@/components/NavBar";
+import { MoreAboutMe } from "@/components/aboutMe/MoreAboutMe";
 
-export default function MoreAbout(){
+export default function MoreAbout() {
   return (
     <div className="mainContainer min-w-2xs max-w-3xl">
-      <NavBar/>
-      <MoreAboutMe/>
+      <NavBar />
+      <MoreAboutMe />
     </div>
-  )
+  );
 }

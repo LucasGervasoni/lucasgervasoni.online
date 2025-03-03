@@ -26,6 +26,17 @@ body {
   color: #f3f4f6;
 }
 
+.socialList{
+
+  a:first-child:hover{
+    color:#0e76a8;
+  }
+
+  a:last-child:hover{
+    color:#d4d4d4;
+  }
+}
+
 .buttonStart{
   cursor: pointer;
   padding: 8px 10px;

@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { FaArrowRightLong } from "react-icons/fa6";
 import "@/components/AboutMe/About.css";
+import certificates from "@/data/certificates.json";
 
 export function MoreAboutMe() {
   return (
@@ -29,26 +30,13 @@ export function MoreAboutMe() {
       </div>
       <div className="moreAboutMeContent">
         <h2 className="text-3xl font-bold tracking-widest">Certificates</h2>
-        <p className="moreAboutMeItems tracking-widest md:text-lg sm:text-sm">
-        &#9679; Skills: HTML, CSS, Javascript, SASS, React, NodeJs, REST API, Algorithms<br/>
-        &#9679; Institution: DevMedia<br/>
-        &#9679;  <a className="text-blue-400 font-bold" href="https://drive.google.com/drive/folders/1_PjqWo5qZ_000JmXz5I1cROzAaY5h_e9?usp=sharing">Degree</a>
-        </p>
-        <p className="moreAboutMeItems tracking-widest md:text-lg sm:text-sm">
-        &#9679; Skills: GitHub Foundations<br/>
-        &#9679; Institution: GitHub<br/>
-        &#9679;  <a className="text-blue-400 font-bold" href="https://www.credly.com/badges/e2a2065e-ffdb-4a84-9ba1-9deae95eaa8a/print">Degree</a>
-        </p>
-        <p className="moreAboutMeItems tracking-widest md:text-lg sm:text-sm">
-        &#9679; Skills: Excel, Power BI, AWS<br/>
-        &#9679; Institution: Alura<br/>
-        &#9679;  <a className="text-blue-400 font-bold" href="https://drive.google.com/drive/folders/1eqFO5FQ33kP8Tqm9OglHHvfD9C0NwuqV?usp=sharing">Degree</a>
-        </p>
-        <p className="moreAboutMeItems tracking-widest md:text-lg sm:text-sm">
-        &#9679; Skills: Hardware Training and Maintenance of PC and Notebooks<br/>
-        &#9679; Institution: Ever-UP Cursos e Treinamentos<br/>
-        &#9679;  <a className="text-blue-400 font-bold" href="https://drive.google.com/file/d/1JDa66ow8dXhYG63OX-4CBrwU5zPxXQKM/view?usp=sharing">Degree</a>
-        </p>
+        {certificates.map((certificate, index) => ( 
+          <p key={index} className="moreAboutMeItems tracking-widest md:text-lg sm:text-sm">
+          &#9679; Skills: {certificate.skills}<br/>
+          &#9679; Institution: {certificate.institution}<br/>
+          &#9679;  <a className="text-blue-400 font-bold" href={certificate.url}>Degree</a>
+          </p>
+        ))}
       </div>
       <div className="moreAboutMeContent">
         <h2 className="text-3xl font-bold tracking-widest">Strengths</h2>

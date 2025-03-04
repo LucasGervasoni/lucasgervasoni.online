@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "skills": "HTML, CSS, Javascript, SASS, React, NodeJs, REST API, Typescript, Nodejs, Git, Bootstrap, Nextjs",
+    "institution": "OneBitCode",
+    "url": "https://drive.google.com/drive/folders/1yzkdjaGSL4qw--ZM2UM4p_RvNcVYgvkj?usp=drive_link"
+  },
+  {
+    "id": 2,
+    "skills": "GitHub Foundations",
+    "institution": "GitHub",
+    "url": "https://www.credly.com/badges/e2a2065e-ffdb-4a84-9ba1-9deae95eaa8a/print"
+  },
+  {
+    "id": 3,
+    "skills": "Excel, Power BI, AWS",
+    "institution": "Alura",
+    "url": "https://drive.google.com/drive/folders/1eqFO5FQ33kP8Tqm9OglHHvfD9C0NwuqV?usp=sharing"
+  },
+  {
+    "id": 4,
+    "skills": "Hardware Training and Maintenance of PC and Notebooks",
+    "institution": "Ever-UP Courses and Training",
+    "url": "https://drive.google.com/file/d/1JDa66ow8dXhYG63OX-4CBrwU5zPxXQKM/view?usp=sharing"
+  }
+]

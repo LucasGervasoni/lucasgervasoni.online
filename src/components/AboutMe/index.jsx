@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { FaArrowRightLong } from "react-icons/fa6";
+import "@/components/AboutMe/About.css";
 
 export function AboutMe() {
 
@@ -21,7 +22,7 @@ export function AboutMe() {
             <p className="aboutMeItems tracking-widest md:text-lg sm:text-sm">
             Today, I have a degree in Logistics from <a className="text-blue-400 font-bold" href="https://drive.google.com/file/d/1WNLXQ87df9wSrR3jCIlHS7vgMRCpIdPj/view?usp=sharing">University Pitágoras Unopar Anhanguera</a>, a field that has always interested me and that I have come to realize is strongly connected to technology. This education has given me a strategic perspective on process management, resource optimization, and operational efficiency. With this knowledge, combined with my passion for technology, I aim to create innovative solutions that automate tasks, improve processes, increase efficiency, and generate positive impacts for both businesses and people.
             </p>
-            <Link href="/moreAbout" className="moreAboutLink w-40 flex items-center gap-2 justify-between text-blue-500">More about me <FaArrowRightLong /></Link>
+            <Link href="/MoreAbout" className="moreAboutLink w-45 flex items-center gap-2 justify-between text-blue-500">More about me <FaArrowRightLong /></Link>
           </div>
         </div>
     );

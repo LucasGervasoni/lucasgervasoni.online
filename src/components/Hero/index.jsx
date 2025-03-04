@@ -54,7 +54,7 @@ export function Hero(){
           <p 
           className="w-50 buttonStart"
           >
-            <Link href="/about" className="flex items-center gap-4 justify-between">Press to start <FaArrowRightLong /></Link>
+            <Link href="/About" className="flex items-center gap-4 justify-between">Press to start <FaArrowRightLong /></Link>
             </p>
         </div>
     )

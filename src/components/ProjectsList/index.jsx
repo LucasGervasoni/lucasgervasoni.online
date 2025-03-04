@@ -2,6 +2,7 @@
 import { FaExternalLinkAlt } from "react-icons/fa";
 import projects from "@/data/projects.json";
 import { useState } from "react";
+import "@/components/Tech/AboutTech.css";
 
 export function ProjectsList(){
   const numberOfProjects = projects.length;

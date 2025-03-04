@@ -1,9 +1,9 @@
-import { Initial } from "@/pages/initial";
+import Initial from "@/app/Home/page";
 
 export default function Home() {
   return (
-    <div className="mainContainer min-w-2xs max-w-3xl">
+    <>
       <Initial />
-    </div>
+    </>
   );
 }

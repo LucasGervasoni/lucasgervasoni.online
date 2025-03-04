@@ -6,8 +6,8 @@ export function Footer(){
       <p className="text-sm md:text-base hoverElements cursor-pointer footerElements">© Lucas Gervasoni</p>
       <div className="flex items-center gap-4">
         <Link className="text-xs md:text-sm hoverElements footerElements" href="/">Home</Link>
-        <Link className="text-xs md:text-sm hoverElements footerElements" href="/about">About</Link>
-        <Link className="text-xs md:text-sm hoverElements footerElements" href="/tech">Stack & Projects</Link>
+        <Link className="text-xs md:text-sm hoverElements footerElements" href="/About">About</Link>
+        <Link className="text-xs md:text-sm hoverElements footerElements" href="/Tech">Stack & Projects</Link>
       </div>
     </nav>
   )

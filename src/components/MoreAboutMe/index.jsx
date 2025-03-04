@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { FaArrowRightLong } from "react-icons/fa6";
+import "@/components/AboutMe/About.css";
 
 export function MoreAboutMe() {
   return (
@@ -73,7 +74,7 @@ export function MoreAboutMe() {
         &#9679; <b>Perfectionism:</b> Sometimes, by wanting everything to be perfect, I end up spending more time and energy on details that, often, don't make much difference. This causes me to lose focus on what really matters, when, in some situations, the simple solution is enough to achieve good results.
         </p>
       </div>
-      <Link href="/tech" className="moreAboutLink w-60 flex items-center gap-2 justify-between text-blue-500">Tech Stack and Projects <FaArrowRightLong /></Link>
+      <Link href="/Tech" className="moreAboutLink text-sm w-60 md:text-base md:w-70 flex items-center gap-2 justify-between text-blue-500">Tech Stack and Projects <FaArrowRightLong /></Link>
     </div>
   )
 }

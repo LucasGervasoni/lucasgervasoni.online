@@ -1,3 +1,4 @@
+import "@/components/Tech/AboutTech.css";
 import { ProjectsList } from "@/components/ProjectsList/index";
 
 export function AboutTech() {

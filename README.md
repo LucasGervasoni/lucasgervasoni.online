@@ -1,5 +1,5 @@
 <div style="width: 900px; margin: 0 auto">
-  <img src="../portfolio_v2/public/img/picture.png">
+  <img src="https://github.com/LucasGervasoni/lucasgervasoni.online/blob/master/public/img/picture.png">
 </div>
 
 

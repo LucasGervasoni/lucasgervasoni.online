@@ -1,7 +1,7 @@
 import "../../public/css/About.css";
-import { NavBar } from "@/components/NavBar";
-import { AboutMe } from "@/components/aboutMe/AboutMe";
-import { Footer } from "@/components/Footer";
+import { NavBar } from "@/components/Navbar/index";
+import { AboutMe } from "@/components/AboutMe/index";
+import { Footer } from "@/components/Footer/index";
 
 export default function About() {
   return (

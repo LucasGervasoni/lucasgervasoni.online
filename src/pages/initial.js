@@ -1,6 +1,6 @@
-import { Hero } from "@/components/hero";
-import { NavBar } from "@/components/NavBar";
-import { Footer } from "@/components/Footer";
+import { Hero } from "@/components/Hero/index";
+import { NavBar } from "@/components/Navbar/index";
+import { Footer } from "@/components/Footer/index";
 
 export function Initial() {
   return (

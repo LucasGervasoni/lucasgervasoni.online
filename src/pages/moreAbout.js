@@ -1,7 +1,7 @@
 import "../../public/css/MoreAboutMe.css";
-import { NavBar } from "@/components/NavBar";
-import { MoreAboutMe } from "@/components/aboutMe/MoreAboutMe";
-import { Footer } from "@/components/Footer";
+import { NavBar } from "@/components/Navbar/index";
+import { MoreAboutMe } from "@/components/MoreAboutMe/index";
+import { Footer } from "@/components/Footer/index";
 
 export default function MoreAbout() {
   return (

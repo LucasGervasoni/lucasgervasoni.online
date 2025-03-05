@@ -25,7 +25,7 @@ export function ProjectsList(){
             <figure className="overflow-hidden rounded-lg">
               <img className="cursor-pointer transition-transform duration-300 ease-in-out hover:scale-110" src={project.image} />
             </figure>
-            <p className="flex items-center justify-between font-bold !mt-4">{project.name} <a href={project.url}><FaExternalLinkAlt /></a></p>
+            <p className="flex items-center justify-between font-bold !mt-4">{project.name} <a className="hoverElements" href={project.url}><FaExternalLinkAlt /></a></p>
             <p className="projectSkills !mt-4 text-sm">Technologies Used:</p>
             <p className="projectSkills text-sm">{project.skills}</p>
           </div>

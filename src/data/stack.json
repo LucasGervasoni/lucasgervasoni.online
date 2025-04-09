@@ -1,67 +1,62 @@
 [
   {
     "id": 1,
-    "name": "HTML",
-    "url": "https://img.shields.io/badge/HTML-black?style=for-the-badge&logo=html5&logoColor=white"
-  },
-  {
-    "id": 2,
-    "name": "CSS",
-    "url": "https://img.shields.io/badge/CSS-black?style=for-the-badge&logo=CSS&logoColor=white"
-  },
-  {
-    "id": 3,
-    "name": "SASS",
-    "url": "https://img.shields.io/badge/SASS-black?style=for-the-badge&logo=sass&logoColor=white"
-  },
-  {
-    "id": 4,
-    "name": "Javascript",
-    "url": "https://img.shields.io/badge/JavaScript-black?style=for-the-badge&logo=javascript&logoColor=white"
-  },
-  {
-    "id": 5,
-    "name": "Node.js",
-    "url": "https://img.shields.io/badge/node.js-black?style=for-the-badge&logo=node.js&logoColor=white"
-  },
-  {
-    "id": 6,
-    "name": "React.js",
-    "url": "https://img.shields.io/badge/React%20js-black?style=for-the-badge&logo=react&logoColor=white"
-  },
-  {
-    "id": 7,
-    "name": "Typescript",
-    "url": "https://img.shields.io/badge/TypeScript-black?style=for-the-badge&logo=typescript&logoColor=white"
-  },
-  {
-    "id": 8,
     "name": "Java",
     "url": "https://img.shields.io/badge/Java-black?style=for-the-badge&logo=openjdk&logoColor=white"
   },
   {
-    "id": 9,
+    "id": 2,
     "name": "Spring Boot",
     "url": "https://img.shields.io/badge/springboot-black?style=for-the-badge&logo=springboot&logoColor=white"
   },
   {
-    "id": 10,
+    "id": 3,
     "name": "Python",
     "url": "https://img.shields.io/badge/Python-black?style=for-the-badge&logo=python&logoColor=white"
   },
   {
-    "id": 11,
+    "id": 4,
+    "name": "sql",
+    "url": "https://img.shields.io/badge/sql-black?style=for-the-badge&logo=sql&logoColor=white"
+  },
+  {
+    "id": 5,
     "name": "mysql",
     "url": "https://img.shields.io/badge/mysql-black?style=for-the-badge&logo=mysql&logoColor=white"
   },
   {
-    "id": 12,
+    "id": 6,
     "name": "postgresql",
     "url": "https://img.shields.io/badge/postgresql-black?style=for-the-badge&logo=postgresql&logoColor=white"
   },
   {
-    "id": 13,
+    "id": 7,
     "name": "aws",
     "url": "https://img.shields.io/badge/AWS-black?style=for-the-badge&logo=amazon-web-services&logoColor=white"
+  },
+  {
+    "id": 8,
+    "name": "excel",
+    "url": "https://img.shields.io/badge/excel-black?style=for-the-badge&logo=excel&logoColor=white"
+  },
+  {
+    "id": 9,
+    "name": "power bi",
+    "url": "https://custom-icon-badges.demolab.com/badge/Power%20BI-black?style=for-the-badge&logo=power-bi&logoColor=white"
+  },
+  {
+    "id": 10,
+    "name": "git",
+    "url": "https://img.shields.io/badge/git-black?style=for-the-badge&logo=git&logoColor=white"
+  },
+  {
+    "id": 11,
+    "name": "flask",
+    "url": "https://img.shields.io/badge/flask-black?style=for-the-badge&logo=flask&logoColor=white"
+  },
+  {
+    "id": 12,
+    "name": "django",
+    "url": "https://img.shields.io/badge/django-black?style=for-the-badge&logo=django&logoColor=white"
   }
 ]

@@ -1,9 +1,9 @@
 [
   {
     "id": 1,
-    "skills": "HTML, CSS, Javascript, SASS, React, NodeJs, REST API, Typescript, Nodejs, Git, Bootstrap, Nextjs",
-    "institution": "OneBitCode",
-    "url": "https://drive.google.com/drive/folders/1yzkdjaGSL4qw--ZM2UM4p_RvNcVYgvkj?usp=drive_link"
+    "skills": "Google IT Support Professional Certificate",
+    "institution": "Google",
+    "url": "https://www.coursera.org/account/accomplishments/specialization/5DZ8GR9BF5QS"
   },
   {
     "id": 2,
@@ -13,12 +13,18 @@
   },
   {
     "id": 3,
+    "skills": "Full Stack Development skills",
+    "institution": "DevMedia",
+    "url": "https://drive.google.com/drive/folders/1_PjqWo5qZ_000JmXz5I1cROzAaY5h_e9?usp=drive_link"
+  },
+  {
+    "id": 4,
     "skills": "Excel, Power BI, AWS",
     "institution": "Alura",
     "url": "https://drive.google.com/drive/folders/1eqFO5FQ33kP8Tqm9OglHHvfD9C0NwuqV?usp=sharing"
   },
   {
-    "id": 4,
+    "id": 5,
     "skills": "Hardware Training and Maintenance of PC and Notebooks",
     "institution": "Ever-UP Courses and Training",
     "url": "https://drive.google.com/file/d/1JDa66ow8dXhYG63OX-4CBrwU5zPxXQKM/view?usp=sharing"

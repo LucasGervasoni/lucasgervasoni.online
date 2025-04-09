@@ -14,7 +14,7 @@ export function Hero(){
 
   const lines = [
     "Hey, I'm Lucas.",
-    "I'm a Software Developer from Brazil."
+    "I'm from Brazil."
   ];
 
   useEffect(() => {
